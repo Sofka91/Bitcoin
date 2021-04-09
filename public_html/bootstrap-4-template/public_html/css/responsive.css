@@ -1,0 +1,111 @@
+/*SM breakpoint*/
+@media( min-width:576px){
+    .lead-image{
+        text-align: center;
+    }
+
+    .nav-item:first-of-type:after{
+        display: inline-block;
+        content: '';
+        width: 60px;
+        height: 4px;
+        background-color: #1FDB84;
+        margin-left: 5px;
+    }
+
+    .image-item{
+        flex: 0 0 33.33%;
+    }
+    .mt-2, .my-2{
+        margin-top: 0!important;
+    }
+
+    footer .breadcrumb li a{
+    color: #5B6C94;
+    font-size: 14px;
+}
+
+.copyright{
+    color: #5B6C94;
+    font-size: 12px;
+    line-height: 32px;
+}
+
+}
+
+
+
+/*MD breakpoint*/
+@media(min-width:768px){
+
+    .payments-business{
+        margin: auto;
+    }
+
+    .lead-image img{
+        text-align: center;
+    }
+
+    
+    .image-item{
+    flex: 0 0 25%;
+}
+
+ footer .breadcrumb li a{
+    color: #5B6C94;
+    font-size: 16px;
+}
+
+.copyright{
+    color: #5B6C94;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+}
+
+
+
+/*LG breakpoint*/
+@media(min-width:992px){
+
+    .nav-item{
+        margin-right: 1rem;
+    }
+
+    .lead-paragraph{
+        text-align: left;
+    }
+
+    .lead-data h1{
+        text-align: left;
+    }
+
+    .lead .btn-link{
+        margin-right: auto;
+        margin-left: 0;
+        display: block;
+    }
+    
+    .image-item{
+    flex: 0 0 20%;
+}
+
+.copyright{
+    color: #5B6C94;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
+ 
+   
+
+}
+
+/*XL breakpoint*/
+@media(min-width:1200px){
+
+
+
+}
